@@ -6,7 +6,7 @@ const arr = [];
 const result = () => {
     rl.question('Digite a propriedade do CSS', (answer) => {
         if (answer == 'Sair' || answer == 'SAIR' || answer == 'sair'){
-            console.log(`Your list:\n${arr.sort().join(`\n`)}`);
+            console.log(`Aqui está sua lista:\n${arr.sort().join(`\n`)}`);
             return rl.close();
         } else {
             arr.push(answer);
